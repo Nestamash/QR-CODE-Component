@@ -1,0 +1,67 @@
+$white:hsl(0, 0%, 100%);
+$Light_gray:hsl(212, 45%, 89%);
+$dark_blue: hsl(228, 45%, 44%);
+$font_family: 'Outfit', sans-serif;
+$myfont: 15px;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: $font_family;
+    font-size: $myfont;
+    font-weight: 400;
+    background-color: $Light_gray;
+    
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+    
+
+ a { 
+        color: $dark_blue; 
+    }
+}
+    .container{
+        background-color: $Light_gray;
+        width: 1440px; 
+        margin: 100px auto;
+        padding: 50px 0;
+        
+    }
+img{
+    width: 330px;
+    height: 330px;
+    padding: 20px;
+    border-radius: 30px; 
+}
+.qrcode_holder{
+    width: 330px;
+    margin: 10px auto;  
+    background-color: $white;
+    border-radius: 20px;     
+}
+
+.qrcode_description h1, p{
+    padding: 0 30px;
+    text-align: center;
+
+}
+h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.qrcode_description p{
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+@media only screen and (max-width: 950px) {
+    .container {
+        
+        width: 375px;
+        margin: 20px auto;
+        padding: 50px 0;
+    }
+}
