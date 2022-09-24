@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+main {
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 1.25em;
+}
+
+img {
+  border-radius: 2em;
+  padding: 1.25em;
+  max-width: 100%;
+  padding-bottom: 0;
+}
+
+.qrcode_description {
+  max-width: 330px;
+  padding: 0 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 2.5em;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+.qrcode_description h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+.qrcode_description p {
+  font-size: 1rem;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
